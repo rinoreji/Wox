@@ -39,7 +39,7 @@ namespace Wox.ViewModel
                     OnPropertyChanged(nameof(ActivatedTimes));
                 }
             };
-            AutoUpdates();
+            //AutoUpdates();
         }
 
         public Settings Settings { get; set; }

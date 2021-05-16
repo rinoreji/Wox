@@ -31,6 +31,7 @@ namespace Wox.Core
 
         public async Task UpdateApp(bool silentIfLatestVersion = true, bool updateToPrereleases = false)
         {
+            return;//I dont need this feature to run now.
             try
             {
                 using (UpdateManager updateManager = await GitHubUpdateManager(GitHubRepository, updateToPrereleases))

@@ -79,7 +79,7 @@ namespace Wox.Infrastructure.UserSettings
             }
         }
 
-        public bool AutoUpdates { get; set; } = true;
+        public bool AutoUpdates { get; set; } = false;
         public bool UpdateToPrereleases { get; set; } = false;
 
         public double WindowLeft { get; set; }
@@ -101,7 +101,7 @@ namespace Wox.Infrastructure.UserSettings
         public bool DontPromptUpdateMsg { get; set; }
         public bool EnableUpdateLog { get; set; }
 
-        public bool StartWoxOnSystemStartup { get; set; } = true;
+        public bool StartWoxOnSystemStartup { get; set; } = false;
         public bool HideOnStartup { get; set; }
         bool _hideNotifyIcon { get; set; }
         public bool HideNotifyIcon
